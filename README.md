@@ -8,51 +8,51 @@
 
 ### 1. [Неделя 1. Введение в Go. Простые типы данных и управляющие конструкции](./week-01/README.md)
 
-**Быстро повторить:** [Строки, UTF-8, byte и rune](./week-01/strings-runes.md)
+[Строки, UTF-8, byte и rune](./week-01/strings-runes.md)
 
 ### 2. [Неделя 2. Составные типы данных. Знакомство с исходным кодом Go](./week-02/README.md)
 
-**Быстро повторить:** [Слайсы и map: что важно помнить](./week-02/slices-maps.md)
+[Слайсы и map: что важно помнить](./week-02/slices-maps.md)
 
 ### 3. [Неделя 3. Функции. Структуры и методы. Интерфейсы](./week-03/README.md)
 
-**Быстро повторить:** [Интерфейсы, any и type assertion](./week-03/interfaces.md)
+[Интерфейсы, any и type assertion](./week-03/interfaces.md)
 
 ### 4. [Неделя 4. Дженерики. Ошибки и их обработка. Паники](./week-04/README.md)
 
-**Быстро повторить:** [defer, panic и recover](./week-04/defer-panic-recover.md)
+[defer, panic и recover](./week-04/defer-panic-recover.md)
 
 ### 5. [Неделя 5. Структура проекта](./week-05/README.md)
 
-**Быстро повторить:** [Пакеты, модули, go.mod и go.sum](./week-05/packages-modules.md)
+[Пакеты, модули, go.mod и go.sum](./week-05/packages-modules.md)
 
 ### 6. [Неделя 6. Конкурентность и параллелизм](./week-06/README.md)
 
-**Быстро повторить:** [Горутины, каналы, select и deadlock](./week-06/goroutines-channels-select.md)
+[Горутины, каналы, select и deadlock](./week-06/goroutines-channels-select.md)
 
 ### 7. [Неделя 7. Контекст и примитивы синхронизации](./week-07/README.md)
 
-**Быстро повторить:** [context, Mutex и WaitGroup](./week-07/context-sync.md)
+[context, Mutex и WaitGroup](./week-07/context-sync.md)
 
 ### 8. [Неделя 8. Работа с файлами](./week-08/README.md)
 
-**Быстро повторить:** [io.Reader / io.Writer и буферизация](./week-08/io-reader-writer.md)
+[io.Reader / io.Writer и буферизация](./week-08/io-reader-writer.md)
 
 ### 9. [Неделя 9. Тулинг в Golang](./week-09/README.md)
 
-**Быстро повторить:** [Инструменты перед PR](./week-09/tooling-checklist.md)
+[Инструменты перед PR](./week-09/tooling-checklist.md)
 
 ### 10. [Неделя 10. Конфигурация, JSON и YAML](./week-10/README.md)
 
-**Быстро повторить:** [JSON: Marshal, Unmarshal и struct tags](./week-10/json-tags.md)
+[JSON: Marshal, Unmarshal и struct tags](./week-10/json-tags.md)
 
 ### 11. [Неделя 11. HTTP и REST-архитектура](./week-11/README.md)
 
-**Быстро повторить:** [Handler и middleware](./week-11/http-middleware.md)
+[Handler и middleware](./week-11/http-middleware.md)
 
 ### 12. [Неделя 12. Тестирование кодовой базы и API-сервисов](./week-12/README.md)
 
-**Быстро повторить:** [Table-driven tests и httptest](./week-12/table-tests-httptest.md)
+[Table-driven tests и httptest](./week-12/table-tests-httptest.md)
 
 ---
 
