@@ -155,5 +155,4 @@ sort.Slice:
         return numbers[i] > numbers[j]
     })
     fmt.Println("По убыванию:", numbers)
-}
 ```
