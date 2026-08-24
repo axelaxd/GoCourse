@@ -280,7 +280,7 @@ var ErrInvalidArgument = errors.New("Invalid argument")
 
 ```go
 func checkArgument(a int) error {
-	if a ` 0 {
+	if a == 0 {
 		return ErrInvalidArgument
 	}
 	

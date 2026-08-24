@@ -99,7 +99,7 @@ fmt.Print(string(data))
     for {
         // Чтение следующих 4 КБ файла
         n, err := file.Read(buffer)
-        if err ` io.EOF {
+        if err == io.EOF {
             break
         }
         // Обработка данных из буфера
@@ -114,7 +114,7 @@ fmt.Print(string(data))
 ```go
 func fileExists(filename string) (bool, error) {
     _, err := os.Stat(filename)
-    if err ` nil {
+    if err == nil {
         return true, nil
     }
     
@@ -130,7 +130,7 @@ func fileExists(filename string) (bool, error) {
 	Если файл существует, функция перепишет его
 
 ```go
-err := os.WriteFile("testdata/helo", []byte("Hello, Gophers!), 0666)
+err := os.WriteFile("testdata/helo", []byte("Hello, Gophers!"), 0666)
 if err != nil {
 	log.Fatal(err)
 }
